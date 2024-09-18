@@ -1,4 +1,4 @@
-# Project Front-End Notes App for Menjadi Google Cloud Engineer
+# Project Front-End Notes App for BDD Demo
 Running a project in production:
 
 1. ``npm install``

@@ -1,0 +1,1 @@
+{"ast":null,"code":"const fetcher = async (url, options) => {\n  const response = await fetch(url, options);\n\n  if (!response.status.toString().startsWith('2')) {\n    const {\n      message\n    } = await response.json();\n    throw new Error(message);\n  }\n\n  return response.json();\n};\n\nexport default fetcher;","map":null,"metadata":{},"sourceType":"module"}

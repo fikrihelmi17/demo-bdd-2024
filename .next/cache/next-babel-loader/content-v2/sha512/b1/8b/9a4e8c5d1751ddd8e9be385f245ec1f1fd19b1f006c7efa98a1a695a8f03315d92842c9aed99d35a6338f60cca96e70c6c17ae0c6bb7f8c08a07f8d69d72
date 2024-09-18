@@ -1,0 +1,1 @@
+{"ast":null,"code":"// eslint-disable-next-line import/prefer-default-export\nexport var convertISODate = function convertISODate(ISODate) {\n  return new Date(ISODate).toDateString();\n};","map":null,"metadata":{},"sourceType":"module"}
